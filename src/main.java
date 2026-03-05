@@ -9,6 +9,8 @@ public class main {
         String imeDatoteke = scan.nextLine();
 
         System.out.print("Unesi putanju destinacijske datoteke:");
+        String destinacijske = scan.nextLine();
+
 
     }
 
