@@ -1,3 +1,4 @@
+import java.io.File;
 import java.util.Scanner;
 import java.io.IOException;
 import java.io.ObjectInputStream;
@@ -9,7 +10,13 @@ public class main {
         String imeDatoteke = scan.nextLine();
 
         System.out.print("Unesi putanju destinacijske datoteke:");
-        String destinacijske = scan.nextLine();
+        String destinacijskeDatoteke = scan.nextLine();
+
+        File originalne = new File(imeDatoteke);
+        File destinacijske = new File(destinacijskeDatoteke);
+
+
+
 
 
     }
